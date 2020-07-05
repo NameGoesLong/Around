@@ -10,4 +10,4 @@ jobs:
       - run: |
           docker build -t diceprobe/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-          docker push your-diceprobe/around
+          docker push diceprobe/around
